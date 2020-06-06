@@ -1,0 +1,8 @@
+package functions.interpreter;
+
+public enum Type {
+	VARIABLE, FUNCTION, NUMBER, CONSTANT,
+	COMMA, EQUALS, LEFT_PAREN, RIGHT_PAREN,
+	PLUS, MINUS, MULTIPLY, DIVIDE, POWER,
+	EOF;
+}
