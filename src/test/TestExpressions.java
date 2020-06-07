@@ -17,6 +17,7 @@ import functions.interpreter.Parser;
 import functions.model.Expression;
 import functions.model.MultivariateExpression;
 
+@SuppressWarnings("unused")
 public class TestExpressions {
 	public static Function<Expression, String> converter = e -> e.getToken();
 	
